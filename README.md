@@ -28,9 +28,6 @@ La aplicación se conecta a cuatro listas de SharePoint, cada una representando 
 | **Contactos** | Directorio de contactos asociados a la organización |
 | **Productos** | Catálogo de productos disponibles |
 
-![Fuentes de datos conectadas](imagenes/fuentes-de-datos.png)
-*Vista de árbol de Power Apps mostrando las cuatro listas de SharePoint conectadas como fuentes de datos.*
-
 ---
 
 ## 🖥️ Estructura de pantallas
@@ -43,7 +40,7 @@ La app está organizada en pantallas independientes, siguiendo buenas prácticas
 - **`pantalla_lista_ventas`** — Listado de ventas realizadas
 - **`pantalla_nueva_venta`** — Formulario para registrar una nueva venta
 
-![Estructura de pantallas](imagenes/estructura-pantallas.png)
+![Estructura de pantallas](Vista-de-arbol.jpeg)
 *Vista de árbol con la organización de pantallas de la aplicación.*
 
 ---
@@ -60,7 +57,7 @@ Uno de los módulos principales permite dar de alta nuevos empleados capturando:
 
 El formulario incluye **validaciones en tiempo real**: los campos obligatorios se resaltan y se muestran advertencias cuando falta completar información (por ejemplo, el selector de departamento sin seleccionar).
 
-![Pantalla de registro de empleados](imagenes/pantalla-registrar-empleado.png)
+![Pantalla de registro de empleados](Registro-de-empleado.jpeg)
 *Formulario "Registrar Empleado" con validaciones visuales de campos obligatorios.*
 
 ---
